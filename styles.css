@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #f9f9f9; /* Color del texto */
+    background-color: #000; /* Fondo negro */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #1a1a1a; /* Fondo más oscuro para el header */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 0.5rem 0 1.5rem 0;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #6ab04c; /* Cambiar color a un verde más sutil */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4a9e37; /* Color más oscuro al pasar el mouse */
+}
+
+.content-section {
+    background: #2c3e50; /* Fondo de las secciones */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    margin: 2rem 0;
+    transition: transform 0.3s;
+}
+
+.content-section:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #f9f9f9; /* Color de los encabezados */
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h4 {
+    font-size: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Color más oscuro al pasar el mouse */
+}
+
+/* Logos de redes sociales */
+.logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0; /* Espaciado entre los logos y el footer */
+}
+
+.social-logo {
+    width: 50px; /* Tamaño de los logos */
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a1a1a; /* Fondo más oscuro para el footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
